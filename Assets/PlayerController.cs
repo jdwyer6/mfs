@@ -20,7 +20,7 @@ public class PlayerController : MonoBehaviour
         canMove = true;
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         // Input handling
         float horizontalInput = Input.GetAxis("Horizontal");
